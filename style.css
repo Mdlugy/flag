@@ -1,0 +1,30 @@
+br{line-height:1px;}
+
+#container{
+    position:absolute;
+    background-color: rgb(44, 44, 153);
+    width: 505px;
+    height: 250px;
+}
+#stripes{
+    float: left;
+    background-image: repeating-linear-gradient(180deg,
+    #c70303,
+    #c70303 10px,
+    #ffffff 10px,
+    #ffffff 20px);
+    width: 200px;
+    height: 130px;
+}
+.filler{
+    color:rgb(44, 44, 153);
+    font-size: 5px;
+    margin-right: 0;
+}
+.stars{
+    font-size: x-large;
+    color: white;
+    margin-left: 0;
+}
+#bottomStars{}
+
